@@ -17,8 +17,19 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+a=eval(input())
+b=eval(input())
+c=eval(input())
+d=pd.DataFrame({'Name':a, 'Age':b,'Designation':c})
+print(d)
+e=d.sort_values(by='Age')
+print(e)
+```
 
 ## Output
+<img width="1248" height="393" alt="image" src="https://github.com/user-attachments/assets/dc743c83-1967-41c3-b309-29876aa48cfa" />
 
 ## Result
+Executed Successfully.
