@@ -13,9 +13,22 @@ To write a Python program using **NumPy** that finds the indices where elements 
 5. **Print Indices**: Print the indices where the condition holds true.
 
 ## 🧾 Program
+```
+import numpy as np
+import ast
 
-Add code here
+# Read input and convert to Python list
+arr_input = input().strip()
+arr_list = ast.literal_eval(arr_input)
 
+# Convert to numpy array
+A = np.array(arr_list)
+
+# Compute and print standard deviation
+print(np.std(A))
+```
 ## Output
+<img width="903" height="255" alt="image" src="https://github.com/user-attachments/assets/8458fd57-19b2-450a-81f8-14d43d69dcd4" />
 
 ## Result
+Executes Successfully.
